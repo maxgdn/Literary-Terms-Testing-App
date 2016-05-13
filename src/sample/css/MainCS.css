@@ -1,0 +1,42 @@
+.root {
+
+}
+
+.basic {
+    -fx-background-image: url("./pictures/basic.jpg");
+}
+
+.tropical {
+    -fx-background-image: url("./pictures/tropical.jpg");
+}
+.mountain {
+    -fx-background-image: url("./pictures/mountain.jpg");
+    -fx-background-size: cover;
+}
+.city {
+    -fx-background-image: url("./pictures/city.jpg");
+    -fx-background-size: cover;
+
+}
+.arctic {
+    -fx-background-image: url("./pictures/arctic.jpg");
+    -fx-background-size: cover;
+}
+.pane {
+    -fx-background-color: #8fbc8f;
+}
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+.authorLabel {
+    -fx-font-size: 9px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}

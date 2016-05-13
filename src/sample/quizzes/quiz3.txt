@@ -1,0 +1,10 @@
+fable = A short story containing animals,characters and objects. It generally conveys an important moral.
+haiku = A Japanese verse in three lines.Its pattern is 5,7,5
+heroic_couplet = A form of english poetry intended for the telling of an epic. It consists of a rhyming pair and an Iambic pentameter
+hubris = excessive self pride or confidence
+humanism = A philosophical stance that boasts and emphasizes the nature of being human
+hyperbole = An extreme exaggeration of a situation,word or place.
+imagery = Visually descriptive language. It provides the reader with enough detail to determine a situations look and feel
+imagists = A standard/practice used by poets in the early 20th century. It was praised for being revolutionary.
+irony = the expression of ones meanings, purposely,unintentionally or dramatically said in the opposite manner to be humorous.
+metaphor = giving a term,word,or a phrase a meaning for something else to give it a deeper insight/meaning.

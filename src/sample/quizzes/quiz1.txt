@@ -1,0 +1,10 @@
+alliteration = Two or More words of a word group with the same letter
+analogy = Similarity between like features of two things ex: Pump and Heart
+anecdote = A short and comedic/amusing story about a person or recent incident
+archetype = A very typical example of something ex: Battle of Good and Evil - Good ultimately triumphs
+autobiography = A Story written by a person by themself about themself
+ballad = A slow Sentimental or Romantic song
+blankverse = A Poem with no ryhme, however it has an Iambic Pentameter
+carpediem = To Sieze the Day or Make the most of Something
+closetdrama = A Play that is not intended to be played on Stage but read by a solitary reader or, sometimes out loud to a small group
+comedy = noun, plural comedies. a play, movie, etc., of light and humorous character with a happy or cheerful ending; a dramatic work in which the central motif is the triumph over adverse circumstance, resulting in a successful or happy conclusion.

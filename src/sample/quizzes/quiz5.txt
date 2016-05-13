@@ -1,0 +1,10 @@
+personification = A figure of speech where human qualities are given to animals, objects or ideas
+protagonist = The leading character, hero, or heroine of a drama or other literary work
+sarcasm = The use of irony to mock or convey contempt
+satire = A literary composition, in verse or prose, in which irony, human folly and vice are held up to scorn, derision, or ridicule
+sestet = A stanza or a poem of six lines; specifically :  the last six lines of an Italian sonnet
+soliloquy = A device often used in drama when a character speaks to himself or herself, relating thoughts and feelings, thereby also sharing them with the audience
+stream of consciousness = a narrative mode or device that depicts the multitudinous thoughts and feelings which pass through the mind
+tragedy =  a form of drama based on human suffering or misfortune
+symbol = Something used for or regarded as representing something else; a material object representing something deeper, often something immaterial
+in media res = a Latin phrase used by the poet Horace; it means in the middle of things.

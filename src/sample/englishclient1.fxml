@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane fx:id="mainGridPane" alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane id="authorLabel" fx:id="basePane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1024.0">
+         <children>
+            <AnchorPane layoutX="14.0" layoutY="20.0" prefHeight="124.0" prefWidth="400.0">
+               <children>
+                  <Label layoutX="20.0" layoutY="14.0" text="Welcome to the ENG4U1 literary terms program" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="39.0" layoutY="456.0" prefHeight="200.0" prefWidth="498.0">
+               <children>
+                  <Label layoutX="25.0" layoutY="21.0" prefHeight="17.0" prefWidth="207.0" text="Options" />
+                  <Button fx:id="tropical" layoutX="25.0" layoutY="149.0" mnemonicParsing="false" onAction="#setTropical" text="Tropical" />
+                  <Button fx:id="mountain" layoutX="129.0" layoutY="149.0" mnemonicParsing="false" onAction="#setMountain" text="Mountains" />
+                  <Button fx:id="city" layoutX="240.0" layoutY="149.0" mnemonicParsing="false" onAction="#setCity" prefHeight="25.0" prefWidth="73.0" text="City" />
+                  <Button fx:id="arctic" layoutX="341.0" layoutY="149.0" mnemonicParsing="false" onAction="#setArctic" prefHeight="25.0" prefWidth="73.0" text="Arctic" />
+                  <Button fx:id="quiz1" layoutX="25.0" layoutY="75.0" mnemonicParsing="false" onAction="#setQuiz1" prefHeight="25.0" prefWidth="59.0" text="Quiz 1" />
+                  <Button fx:id="quiz2" layoutX="104.0" layoutY="75.0" mnemonicParsing="false" onAction="#setQuiz2" prefHeight="25.0" prefWidth="73.0" text="Quiz 2" />
+                  <Button fx:id="quiz3" layoutX="196.0" layoutY="75.0" mnemonicParsing="false" onAction="#setQuiz3" prefHeight="25.0" prefWidth="73.0" text="Quiz 3" />
+                  <Button fx:id="quiz4" layoutX="291.0" layoutY="75.0" mnemonicParsing="false" onAction="#setQuiz4" prefHeight="25.0" prefWidth="73.0" text="Quiz 4" />
+                  <Button fx:id="quiz5" layoutX="388.0" layoutY="75.0" mnemonicParsing="false" onAction="#setQuiz5" prefHeight="25.0" prefWidth="73.0" text="Quiz 5" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="577.0" layoutY="34.0" prefHeight="540.0" prefWidth="391.0">
+               <children>
+                  <TextArea fx:id="outputDisplay" editable="false" layoutX="14.0" layoutY="14.0" mouseTransparent="true" prefHeight="457.0" prefWidth="366.0" promptText="Display Initialized" />
+                  <TextField fx:id="inputField" layoutX="14.0" layoutY="488.0" prefHeight="25.0" prefWidth="366.0" />
+               </children>
+            </AnchorPane>
+            <TextField fx:id="roundsCounter" layoutX="920.0" layoutY="674.0" onAction="#setRounds" prefHeight="10.0" prefWidth="36.0" promptText="10" />
+            <Button fx:id="submit" layoutX="963.0" layoutY="523.0" mnemonicParsing="false" onAction="#submitPressed" prefHeight="25.0" prefWidth="44.0" text="Enter" />
+            <Label layoutX="861.0" layoutY="677.0" text="Rounds :" />
+            <Label fx:id="authorLabel" layoutX="908.0" layoutY="700.0" text="Created by: Max.V">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+         </children>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </AnchorPane>
+   </children>
+</GridPane>
