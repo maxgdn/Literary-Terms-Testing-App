@@ -161,7 +161,7 @@ public class Controller {
     private void setRounds(){
         if(!roundsCounter.getText().isEmpty()) {
             rounds = Integer.parseInt(roundsCounter.getText());
-            if(rounds == 0 || Character.isLetterOrDigit(Integer.parseInt(roundsCounter.getText())) || rounds < 0) rounds = 10;
+            if(rounds == 0 || !(Character.isLetterOrDigit(Integer.parseInt(roundsCounter.getText()))) || rounds < 0) rounds = 10;
         }
     }
 
